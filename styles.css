@@ -1,0 +1,124 @@
+@charset "utf-8";
+body {
+    background-color: #ADD8E6;
+    color: #000000;
+}
+p {
+    text-align: justify;
+}
+
+
+.image_float {
+    float: none;
+    border: medium solid #BDF806;
+}
+
+body p {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    color: #000000;
+    font-size: medium;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Legend Styles */
+
+legend {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+/* Form Layout Styles */
+
+form#survey {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+form#survey > fieldset {
+    background-color: rgb(255, 204, 203);
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+}
+
+div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div.formRow {
+    flex: 1 1 150px;
+}
+
+/* Text Area Styles */
+
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
+
+/* Form Button Styles */
+
+div#buttons {
+    text-align: center;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
+
+/* Validation Styles */
+
+input:focus, select:focus, textarea:focus {
+    background-color: rgb(215, 250, 225);
+}
+
+input#name:focus:valid,
+input#mail:focus:valid {
+    background: pink
+}
+
+input#name:focus:invalid,
+input#mail:focus:invalid {
+    background: red;
+}
+footer {
+    clear: both;
+    text-align: center;
+    font-size: small;
+}
+li {
+    text-align: center;
+}
