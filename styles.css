@@ -122,3 +122,15 @@ footer {
 li {
     text-align: center;
 }
+.content.full {
+    height: auto;
+    max-width: 95%;
+}
+
+/*Mobile View*/
+
+@media (max-width: 400px){
+.content.full {
+    margin: 0px auto;
+}
+}
